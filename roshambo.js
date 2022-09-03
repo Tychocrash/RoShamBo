@@ -46,6 +46,11 @@ function game() {
         }
         console.log(`You: ${pWin} Computer: ${cWin}`)
     }
+    if (pWin >= 3) {
+        console.log('You won!!')
+    } else {
+        console.log('You lost!')
+    }
 
 }
 
